@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.alt-colors .site-content {
+	background: #015a96 url(../img/pattern1.png) repeat-x 0 100%;
+	-webkit-box-shadow:0 0 470px 10px rgba(0, 0, 0, 0.2) inset;
+	box-shadow:0 0 470px 10px rgba(0, 0, 0, 0.2) inset;
+	
+}
+.alt-colors #priceadvisory{background:#015a96}
+.alt-colors #priceadvisory p {margin:0.7em auto}
+/*.alt-colors .h1, .alt-colors h2, .alt-colors h3, .alt-colors h4, .alt-colors h5, .alt-colors h6 {
+    color: #ffe8e8 !important;
+}*/
+.alt-colors h1, .alt-colors h2, .alt-colors h3, .alt-colors h4, .alt-colors h5, .alt-colors h6 {
+    color: #ffe8e8;
+}
+
+ 
+
+.alt-colors .hentry .entry-header {
+    border-color: #ffe8e8;
+}
+body.alt-colors, .alt-colors .secondary-navigation a, .alt-colors  .widget-area .widget a, .alt-colors .onsale, .alt-colors #comments .comment-list .reply a, .alt-colors .pagination .page-numbers li .page-numbers:not(.current), .alt-colors .woocommerce-pagination .page-numbers li .page-numbers:not(.current) .alt-colors p.site-description {
+    color: #fff;
+}
+
+.alt-colors .hentry {
+    border-bottom: 0;
+    margin: 0;
+    padding-bottom: 0;
+}
+label{
+color:#3ccdf0;
+}
+ .alt-colors .hentry .entry-header , .alt-colors .hentry .entry-header h1{text-align:center; border-bottom:0 !important}
+ 
+ 
+ /***********
+*
+*
+*
+wizard
+*
+*
+*
+***********/
+
+.alt-colors #wizard-wrapper ul {
+overflow: hidden;
+counter-reset: step;
+margin: 0 auto;
+}
+.alt-colors #wizard-wrapper ul li  {
+
+color: #62a5d2;
+
+}
+.alt-colors #wizard-wrapper ul li a, .alt-colors #wizard-wrapper ul li a:link, .alt-colors #wizard-wrapper ul li a:visited{
+color:#62a5d2
+}
+
+.alt-colors #wizard-wrapper ul li:before  {
+	
+color: #fff;
+
+border: 3px solid #fff;
+background:#015a96;
+
+}
+.alt-colors #wizard-wrapper ul li.active:before  {
+	
+background: #e6007e;
+color:#fff;
+}
+.alt-colors #wizard-wrapper ul li.active a, 
+.alt-colors #wizard-wrapper ul li.active a:link,
+.alt-colors #wizard-wrapper ul li.active a:visited{
+color:#fff;
+}
+
+#wizard-wrapper ul li:after  {
+
+background: #62a5d2;
+
+}

@@ -1,0 +1,760 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: scdentist\n"
+"POT-Creation-Date: 2017-08-31 09:39+0200\n"
+"PO-Revision-Date: 2017-08-31 09:39+0200\n"
+"Last-Translator: Alex Righetto <alexrighetto@gmail.com>\n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: form-login.php:18
+msgid "Returning customer?"
+msgstr "Sei già cliente?"
+
+#: form-login.php:19
+msgid "Click here to login"
+msgstr "﻿Clicca qui per accedere"
+
+#: form-login.php:26
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: functions.php:104
+msgid "Header"
+msgstr "Intestazione"
+
+#: functions.php:106
+msgid "Widgets in this area will be shown on all posts and pages."
+msgstr ""
+
+#: functions.php:127
+msgid "Checkout not avaiable"
+msgstr ""
+
+#: inc/class-WC-wizard.php:38
+#, php-format
+msgid ""
+"Non è possibile acquistare il seguente prodotto senza personalizzazione. Per "
+"personalizzarlo fai <a href=\"%s\">click qui</a>."
+msgstr ""
+
+#: inc/class-WC-wizard.php:57
+#, php-format
+msgid ""
+"La personalizzazione creata non può essere associata a questo prodotto. "
+"Torna alle modifiche <a href=\"%s\">tramite questo link</a>, e scegli una "
+"tipologia di versa."
+msgstr ""
+
+#: inc/class-WC-wizard.php:161
+msgid "is a required field."
+msgstr "Questo è un campo obbligatorio"
+
+#: inc/class-WC-wizard.php:174
+msgid "Please enter a valid postcode/ZIP."
+msgstr ""
+
+#: inc/class-WC-wizard.php:183
+msgid "is not a valid phone number."
+msgstr ""
+
+#: inc/class-WC-wizard.php:190
+msgid "is not a valid email address."
+msgstr "Inserisci un indirizzo email valido."
+
+#: inc/class-WC-wizard.php:258
+#, php-format
+msgid "You have chosen to customize the  %d category"
+msgstr ""
+
+#: inc/class-WC-wizard.php:289 inc/class-WC-wizard.php:293
+#: inc/class-WC-wizard.php:297 inc/class-WC-wizard.php:306
+msgid "Error"
+msgstr "Errore"
+
+#: inc/class-WC-wizard.php:293
+msgid "Username is required."
+msgstr ""
+
+#: inc/class-WC-wizard.php:297
+msgid "Password is required."
+msgstr ""
+
+#: inc/class-WC-wizard.php:306
+msgid "A user could not be found with this email address."
+msgstr ""
+
+#: inc/class-WC-wizard.php:329
+#, php-format
+msgid "You are now logged in as <strong>%s</strong>"
+msgstr "Sei entrato come <strong>%s</strong>"
+
+#: inc/class-customizations.php:25
+#, php-format
+msgid "Personalizzazione %d completata"
+msgstr ""
+
+#: inc/class-customizations.php:49 inc/class-customizations.php:99
+#: inc/class-customizations_old.php:110 inc/class-wiz-ajax.php:63
+msgid "Personalizzazione iniziata"
+msgstr ""
+
+#: inc/class-customizations.php:75 inc/class-customizations_old.php:47
+#, php-format
+msgid "Personalizzazione %d in modifica"
+msgstr ""
+
+#: inc/class-wiz-ajax.php:280
+msgid ""
+"Insert the amount of interdental brushes until you have composed the entire "
+"box of 500 pcs. At the moment you have not selected any amount."
+msgstr ""
+"Inserisci le quantità di scovolini, fino a configurare la scatola intera di "
+"500 pezzi. Attualmente non è stata inserita nessuna quantità."
+
+#: inc/class-wiz-ajax.php:281
+msgid ""
+"Insert the amount of interdental brushes until you have composed the entire "
+"box of 500 pcs. At the moment you have not selected a sufficient quantity to "
+"complete your order."
+msgstr ""
+"Inserisci le quantità di scovolini, fino a configurare la scatola intera di "
+"500 pezzi. Attualmente le quantità inserite sono insufficienti per "
+"completare l\\'ordine."
+
+#: inc/class-wiz-ajax.php:282
+msgid ""
+"You have completed the composition of the box. You can now insert it in your "
+"cart."
+msgstr ""
+"Hai completato la configurazione del box. Ora puoi procedere all"
+"\\'inserimento nel carrello."
+
+#: inc/class-wiz-ajax.php:283
+msgid "Quantity exceed, every box could contain only max 500 pcs."
+msgstr "Quantità superata, ogni box può contenere massimo 500 pezzi."
+
+#: inc/class-wiz-ajax.php:284
+msgid ""
+"If you want to customize this with your logo, please contact us directly on  "
+"<a href=\"mailto:mkt@piave.com\">mkt@piave.com</a>"
+msgstr ""
+"Se vuoi una personalizzazione con il tuo logo contatta direttamente "
+"l’azienda e invia il tuo logo a <a href=\"mailto:mkt@piave.com\">mkt@piave."
+"com</a>"
+
+#: inc/class-wizard-forms.php:11
+msgid "Current step"
+msgstr ""
+
+#: inc/class-wizard-forms.php:15
+msgid "User id"
+msgstr "Codice utente"
+
+#: inc/class-wizard-forms.php:19
+msgid "Product id"
+msgstr ""
+
+#: inc/class-wizard-forms.php:23
+msgid "Cat id"
+msgstr ""
+
+#: inc/class-wizard-forms.php:27
+msgid "Image id"
+msgstr ""
+
+#: inc/class-wizard-forms.php:39 inc/class-wizard-forms.php:57
+#: template-form.php:18 template-modal.php:22 template-modal.php:35
+msgid "Name and surname"
+msgstr "Nome e cognome"
+
+#: inc/class-wizard-forms.php:44 inc/class-wizard-session.php:117
+msgid "Telphone or e-mail"
+msgstr "Telefono o email"
+
+#: inc/class-wizard-forms.php:62 temp.php:12 template-fase3.php:176
+#: template-form.php:34 template-modal.php:43 template-sartoria.php:56
+msgid "Telephone"
+msgstr "Telefono"
+
+#: inc/class-wizard-forms.php:67 template-fase3.php:177
+msgid "Email"
+msgstr "Email"
+
+#: inc/class-wizard-forms.php:72 inc/class-wizard-forms.php:77
+#: template-fase3.php:178 template-modal.php:48
+msgid "Address"
+msgstr "Indirizzo"
+
+#: inc/class-wizard-forms.php:82 template-fase3.php:179
+msgid "City - Postcode"
+msgstr "Codice postale:"
+
+#: inc/class-wizard-forms.php:87
+msgid "Image background"
+msgstr ""
+
+#: inc/class-wizard-forms.php:100 inc/class-wizard-session.php:159
+#: template-form.php:84
+msgid "Quantity Ultra Fine Interdental Brushes"
+msgstr "Quantità Scovolino ultra fine"
+
+#: inc/class-wizard-forms.php:105 inc/class-wizard-session.php:165
+#: template-form.php:99
+msgid "Quantity Fine Interdental Brushes"
+msgstr "Quantità  Scovolino fine"
+
+#: inc/class-wizard-forms.php:110 inc/class-wizard-session.php:171
+#: template-form.php:114
+msgid "Quantity Medium Interdental Brushes"
+msgstr "Quantità scovolino medium"
+
+#: inc/class-wizard-forms.php:115 inc/class-wizard-session.php:177
+#: template-form.php:129
+msgid "Quantity Large Interdental Brushes"
+msgstr "Quantità Scovolino large"
+
+#: inc/class-wizard-forms.php:120 inc/class-wizard-session.php:183
+#: template-form.php:144
+msgid "Quantity Extra Large Interdental Brushes"
+msgstr "Quantità Scovolino extra fine"
+
+#: inc/class-wizard-install.php:88 inc/class-wizard-install.php:243
+#: inc/class-wizard-install.php:244 inc/class-wizard-install.php:245
+#: inc/class-wizard-install.php:262 inc/class-wizard-session.php:148
+#: inc/wizard_install.php:14 inc/wizard_install.php:15
+#: inc/wizard_install.php:16 inc/wizard_install.php:33
+msgid "Customization"
+msgstr "Personalizzazione"
+
+#: inc/class-wizard-install.php:88 inc/class-wizard-install.php:242
+#: inc/wizard_install.php:13
+msgid "Customizations"
+msgstr "Personalizzazioni"
+
+#: inc/class-wizard-install.php:98
+msgid "Some Meta Box Headline"
+msgstr ""
+
+#: inc/class-wizard-install.php:246 inc/wizard_install.php:17
+msgid "Parent Customization:"
+msgstr ""
+
+#: inc/class-wizard-install.php:247 inc/wizard_install.php:18
+msgid "All Customizations"
+msgstr "Tutte le personalizzazioni"
+
+#: inc/class-wizard-install.php:248 inc/wizard_install.php:19
+msgid "Add New Customization"
+msgstr ""
+
+#: inc/class-wizard-install.php:249 inc/wizard_install.php:20
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: inc/class-wizard-install.php:250 inc/wizard_install.php:21
+msgid "New Customization"
+msgstr ""
+
+#: inc/class-wizard-install.php:251 inc/wizard_install.php:22
+msgid "Edit Customization"
+msgstr ""
+
+#: inc/class-wizard-install.php:252 inc/wizard_install.php:23
+msgid "Update Customization"
+msgstr ""
+
+#: inc/class-wizard-install.php:253 inc/wizard_install.php:24
+msgid "View Customization"
+msgstr ""
+
+#: inc/class-wizard-install.php:254 inc/wizard_install.php:25
+msgid "Search Customization"
+msgstr ""
+
+#: inc/class-wizard-install.php:255 inc/wizard_install.php:26
+msgid "Not found"
+msgstr "Non trovato "
+
+#: inc/class-wizard-install.php:256 inc/wizard_install.php:27
+msgid "Not found in Trash"
+msgstr "Non trovato nel cestino "
+
+#: inc/class-wizard-install.php:257 inc/wizard_install.php:28
+msgid "Customizations list"
+msgstr ""
+
+#: inc/class-wizard-install.php:258 inc/wizard_install.php:29
+msgid "Items Customization navigation"
+msgstr ""
+
+#: inc/class-wizard-install.php:259 inc/wizard_install.php:30
+msgid "Filter Customizations list"
+msgstr ""
+
+#: inc/class-wizard-install.php:263 inc/wizard_install.php:34
+msgid "Customization of products"
+msgstr "Personalizzazione dei prodotti"
+
+#: inc/class-wizard-session.php:111
+msgid "Name"
+msgstr "Nome"
+
+#: inc/class-wizard-session.php:126 inc/class-wizard-session.php:132
+#: template-form.php:31
+msgid "Name dental practice"
+msgstr "Nome dello studio"
+
+#: inc/class-wizard-session.php:149
+msgid "Show Image"
+msgstr "Visualizza immagine"
+
+#: inc/extra-functions.php:64
+msgid "Customize products"
+msgstr "Personalizza i prodotti"
+
+#: inc/extra-functions.php:65
+msgid "Start here"
+msgstr "Inizia qui"
+
+#: inc/extra-functions.php:79
+msgid "Total minimum order € 300.00"
+msgstr ""
+"Ordine minimo totale  € 300,00 con spedizione gratuita (solo in Italia)"
+
+#: inc/theme-functions.php:37
+msgid "Continue shopping"
+msgstr "Continua acquisti"
+
+#: inc/theme-functions.php:94 inc/theme-functions.php:106
+#: inc/theme-functions.php:131
+#, php-format
+msgid ""
+"Your order must be at least %s (excluding VAT), currently the total is  %s. "
+"(excluding VAT)"
+msgstr ""
+"L’ordine deve essere almeno di  %s (I.v.a. esclusa), attualmente il totale è "
+"%s. (I.v.a. esclusa)"
+
+#: inc/theme-functions.php:516
+msgid "Accedi o registrati"
+msgstr ""
+
+#: inc/theme-functions.php:532
+msgid "Cart"
+msgstr "Carrello"
+
+#: inc/titan-framework-checker.php:72
+msgid "Titan Framework needs to be installed."
+msgstr ""
+
+#: inc/titan-framework-checker.php:75
+msgid "Click here to search for the plugin."
+msgstr ""
+
+#: inc/titan-framework-checker.php:82
+msgid "Titan Framework needs to be activated."
+msgstr ""
+
+#: inc/titan-framework-checker.php:85
+msgid "Click here to go to the plugins page and activate it."
+msgstr "Clicca qui per andare alla pagina dei plugin e attivarlo."
+
+#: inc/wizard-functions.php:34
+msgid "Edit quantity"
+msgstr "Modifica quantità"
+
+#: inc/wizard-functions.php:35 template-modal.php:104
+msgid "Proceed"
+msgstr "Procedi"
+
+#: inc/wizard-functions.php:272
+msgid "Select a country&hellip;"
+msgstr "Seleziona uno stato&hellip;"
+
+#: inc/wizard-functions.php:301
+msgid "Select a state&hellip;"
+msgstr "Seleziona uno stato&hellip;"
+
+#: inc/wizard-functions.php:357 inc/wizard-functions.php:381
+msgid "Choose an option"
+msgstr "Scegli un&rsquo;opzione"
+
+#: inc/wizard-functions.php:509
+msgid "No products to show"
+msgstr "Nessun prodotto da mostrare"
+
+#: inc/woocommerce-functions.php:25
+msgid "C.a.p."
+msgstr ""
+
+#: inc/woocommerce-functions.php:60
+msgid "Proceed to Checkout"
+msgstr "Procedi all’Acquisto"
+
+#: temp.php:9 template-sartoria.php:53
+msgid "First name"
+msgstr "Nome:"
+
+#: temp.php:10 template-sartoria.php:54
+msgid "Last name"
+msgstr "Cognome:"
+
+#: temp.php:11 template-sartoria.php:55
+msgid "E-mail"
+msgstr "E-mail"
+
+#: temp.php:22
+msgid "Choose product"
+msgstr "Personalizza i prodotti"
+
+#: temp.php:23 template-fase3.php:188 template-form.php:73
+#: template-form.php:160 template-form.php:174
+msgid "Store image"
+msgstr ""
+
+#: template-fase1.php:25
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+"Ciao <strong>%1$s</strong> (non sei %1$s? <a href=\"%2$s\">Scollegati</a>)."
+
+#: template-fase1.php:30
+#, php-format
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+"Dalla schermata principale del tuo Account puoi vedere gli ordini recenti, "
+"gestire gli indirizzi di fatturazione e spedizione e <a href=\"%s"
+"\">modificare la password</a>."
+
+#: template-fase1.php:53 template-fase1.php:72
+msgid "Login"
+msgstr "Accedi"
+
+#: template-fase1.php:60
+msgid "Username or email address"
+msgstr "Nome utente o email"
+
+#: template-fase1.php:64 template-fase1.php:114
+msgid "Password"
+msgstr "Password"
+
+#: template-fase1.php:74
+msgid "Remember me"
+msgstr "Ricordami"
+
+#: template-fase1.php:78
+msgid "Lost your password?"
+msgstr "Dimenticato la password?"
+
+#: template-fase1.php:91 template-fase1.php:128
+msgid "Register"
+msgstr "Registrati"
+
+#: template-fase1.php:100
+msgid "Username"
+msgstr "Username"
+
+#: template-fase1.php:107
+msgid "Email address"
+msgstr "Indirizzo Email"
+
+#: template-fase1.php:121
+msgid "Anti-spam"
+msgstr ""
+
+#: template-fase2.php:49
+msgid "Scegli la tipologia"
+msgstr ""
+
+#: template-fase3.php:161 template-fase3.php:175
+msgid "First and Last Name"
+msgstr "Nome e cognome"
+
+#: template-fase3.php:162
+msgid "Telephone or Email"
+msgstr "Telefono o email"
+
+#: template-fase3.php:165 template-fase3.php:187
+msgid "Crea personalizzazione"
+msgstr "Crea la tua personalizzazione"
+
+#: template-fase3.php:166 template-form.php:23
+msgid "salva immagina"
+msgstr ""
+
+#: template-fase3.php:182
+msgid "Background"
+msgstr "Sfondo"
+
+#: template-form.php:19 template-modal.php:26
+msgid "Telephone or email"
+msgstr "Telefono o email"
+
+#: template-form.php:22 template-form.php:72
+msgid "Create customization"
+msgstr "Crea la tua personalizzazione"
+
+#: template-form.php:36 template-sartoria.php:58
+msgid "Address 1"
+msgstr "Indirizzo"
+
+#: template-form.php:37
+msgid "Address 2"
+msgstr "Indirizzo  (continuazione)"
+
+#: template-form.php:39 template-modal.php:56
+msgid "Website / E-mail"
+msgstr "Sito web / E-mail"
+
+#: template-form.php:42
+msgid "Stile"
+msgstr ""
+
+#: template-form.php:159 template-form.php:173
+msgid "purchase it"
+msgstr "Procedi all’acquisto"
+
+#: template-form.php:170
+msgid "This product is not customizable."
+msgstr "Il prodotto scelto non è componibile."
+
+#: template-modal.php:12
+msgid "Check edits"
+msgstr "Conferma invio"
+
+#: template-modal.php:16
+msgid "Please review your entry before proceeding."
+msgstr "Rivedi i dati inseriti, prima di procedere."
+
+#: template-modal.php:67
+msgid "Q.tity Ultra Fine Interdental Brushes x 100: "
+msgstr "Scovolino ultra fine Q.tà x 100:"
+
+#: template-modal.php:71
+msgid "Q.tity Fine Interdental Brushes x 100: "
+msgstr "Scovolino fine Q.tà x 100:"
+
+#: template-modal.php:75
+msgid "Q.tity Medium Interdental Brushes x 100: "
+msgstr "Scovolino medium Q.tà x 100:"
+
+#: template-modal.php:80
+msgid "Q.tity Large Interdental Brushes x 100: "
+msgstr "Scovolino large Q.tà x 100:"
+
+#: template-modal.php:84
+msgid "Q.tity Extra Large Interdental Brushes x 100: "
+msgstr "Scovolino extra large Q.tà x 100:"
+
+#: template-modal.php:93
+msgid "No customizations avaiable for this product "
+msgstr "Il prodotto non prevede configurazione "
+
+#: template-modal.php:103
+msgid "Edit"
+msgstr "Modifica"
+
+#: template-sartoria.php:57
+msgid "Country"
+msgstr "Stato"
+
+#: template-sartoria.php:59
+msgid "City"
+msgstr "Città"
+
+#: template-sartoria.php:60
+msgid "State"
+msgstr "Stato"
+
+#: template-sartoria.php:61
+msgid "Postcode"
+msgstr "Codice postale:"
+
+#: template-sartoria.php:66
+msgid "Save Address"
+msgstr "Salva indirizzo"
+
+#: template-wiz-config.php:22
+msgid "Choose the type of product to customize"
+msgstr "Scegli il tipo di prodotto da personalizzare"
+
+#: template-wiz-config.php:23
+msgid "Click on one of the items below"
+msgstr "Fai click su una delle seguenti tipologie"
+
+#: template-wiz-config.php:37
+msgid "Create your own customization"
+msgstr "Crea la tua personalizzazione"
+
+#: template-wiz-config.php:75
+msgid "Product recap:"
+msgstr "Riepilogo prodotto:"
+
+#: template-wiz-config.php:92
+msgid "Order recap:"
+msgstr "Riepilogo ordine:"
+
+#: template-wiz-config.php:102
+msgid "Product:"
+msgstr "Prodotto:"
+
+#: template-wiz-config.php:103
+msgid "Price:"
+msgstr "Prezzo:"
+
+#: template-wiz-config.php:104
+msgid "Quantity:"
+msgstr "Quantità:"
+
+#: template-wiz-config.php:123
+msgid ""
+"Please note: in the next screen it is still possible to make changes to your "
+"order\n"
+msgstr ""
+"Attenzione: nella prossima schermata è ancora possibile effettuare modifiche "
+"all'ordine\n"
+
+#: woocommerce/cart/cart-empty.php:18
+msgid "Your cart is currently empty."
+msgstr "Il carrello è vuoto."
+
+#: woocommerce/cart/cart-empty.php:22
+msgid "Customize a product"
+msgstr "Personalizza un prodotto"
+
+#: woocommerce/cart/cart-totals.php:19
+msgid "Cart Totals"
+msgstr "Totale"
+
+#: woocommerce/cart/cart-totals.php:24
+msgid "Subtotal"
+msgstr "Subtotale"
+
+#: woocommerce/cart/cart-totals.php:46
+msgid "Shipping"
+msgstr "Spedizione"
+
+#: woocommerce/cart/cart-totals.php:78 woocommerce/cart/cart.php:39
+#: woocommerce/cart/cart.php:126
+msgid "Total"
+msgstr "Totale"
+
+#: woocommerce/cart/cart-totals.php:90
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:93
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+"Nota: La spedizione e le tasse sono stimate%s e saranno aggiornate durante "
+"l’acquisto, sulla base di informazioni di fatturazione e spedizione."
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:79
+msgid "Product"
+msgstr "Prodotto"
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:97
+msgid "Price"
+msgstr "Prezzo"
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:103
+msgid "Quantity"
+msgstr "Quantità"
+
+#: woocommerce/cart/cart.php:60
+msgid "Remove this item"
+msgstr "Rimuovi"
+
+#: woocommerce/cart/cart.php:92
+msgid "Available on backorder"
+msgstr "Disponibile su prenotazione"
+
+#: woocommerce/cart/cart.php:144
+msgid "Coupon:"
+msgstr "Codice coupon:"
+
+#: woocommerce/cart/cart.php:144
+msgid "Coupon code"
+msgstr "Codice Coupon"
+
+#: woocommerce/cart/cart.php:144
+msgid "Apply Coupon"
+msgstr "Applica Coupon"
+
+#: woocommerce/cart/cart.php:150
+msgid "Update Cart"
+msgstr "Aggiorna carrello"
+
+#: woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr "Devi accedere per procedere all’acquisto."
+
+#: woocommerce/checkout/form-checkout.php:54
+msgid "Your order"
+msgstr "Il tuo ordine"
+
+#: woocommerce/checkout/payment.php:31
+msgid "Please fill in your details above to see available payment methods."
+msgstr "Completa tutti i dettagli per ottenere le opzioni di spedizione."
+
+#: woocommerce/checkout/payment.php:33
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Siamo spiacenti. sembra che il negozio non sia disponibile nel tuo stato."
+
+#: woocommerce/checkout/payment.php:44
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr "Aggiorna totale"
+
+#: woocommerce/checkout/payment.php:54
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr ""
+"Ho letto e accettato <a href=\"%s\" target=\"_blank\">i Termini e "
+"condizioni</a> d&rsquo;uso"
+
+#: woocommerce/single-product/product-image.php:54
+msgid "Awaiting product image"
+msgstr ""
+
+#~ msgid "Tax code / VAT ID"
+#~ msgstr "C.F. / P.IVA"
+
+#~ msgid "Zip Code"
+#~ msgstr "C.A.P. Città"
+
+#~ msgid "insert your company info here"
+#~ msgstr "Inserisci le informazioni lavorative qui"
