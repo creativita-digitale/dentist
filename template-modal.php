@@ -4,7 +4,13 @@
 	$lang =$_COOKIE['_icl_current_language'];
     $options = get_option( $lang.'_axl_dentist_options' );
 ?>
+<script>
+ jQuery( document ).ready(function($) {
+     
+        $('#modal-wrapper #submit').button('loading');
+    });
 
+</script>
 <div class="modal fade" id="confirm-submit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 					<div class="modal-dialog">
 						<div class="modal-content">
@@ -101,7 +107,16 @@
 				
 				  	<div class="modal-footer">
                     		<button type="button" id="edit" class="btn btn-success success pull-left" data-dismiss="modal"><?php _e('Edit','scdentist'); // Modifica ?></button>
-							<button type="button" id="submit" class="btn btn-success success" data-dismiss="modal"><?php _e('Proceed','scdentist'); // indirizzo ?></button>
+                        
+                            
+                        
+                        
+							<button type="button" id="submit" class="btn btn-success success" data-dismiss="modal" data-loading-text="<i class='fa fa-spinner fa-spin '></i> <?php _e('Customising selected product','scdentist'); ?> <!-- <span class='progress'>
+                              <i class='progress-bar' role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width: 60%;'>
+                                60%
+                              </i>
+                            </span> -->"><?php _e('Proceed','scdentist'); // indirizzo ?></button>
+                        
 						</div>
 					</div>
 				</div>

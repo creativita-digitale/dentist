@@ -581,6 +581,8 @@ jQuery(function ($) {
 		
 		loadProduct2Buy:function(){
 			
+            
+            
 			$.when(
                     $("#product-section .loader").show(),
                     wiz_ajax.getProduct()
@@ -605,7 +607,8 @@ jQuery(function ($) {
 							wiz_ajax.setImage_kit();
 						
 						}
-						
+                        // funzione aggiunta per temporeggiare, in modo ce il cookie venga scritto.
+						setTimeout(function () { $('#modal-wrapper #submit').button('reset');}, 6000);
                     });		
 		},
 		

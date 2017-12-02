@@ -1,4 +1,4 @@
-console.log(js_object.ajax_url);
+//console.log(js_object.ajax_url);
                         
 ;( function( $, window, undefined ) {
 	
@@ -20,8 +20,8 @@ console.log(js_object.ajax_url);
 		_init : function( options ) {
 			
 			this.cookie = this._getCookieData();
-                        console.log('inside ------------> this.cookie.wizard_product_id = ' + this.cookie.wizard_product_id);
-                        console.log('inside ------------> this.cookie.wizard_cat_id = ' + this.cookie.wizard_cat_id);
+                       // console.log('inside ------------> this.cookie.wizard_product_id = ' + this.cookie.wizard_product_id);
+                       // console.log('inside ------------> this.cookie.wizard_cat_id = ' + this.cookie.wizard_cat_id);
                        
 			// the categories (ul)
 			this.$categories = this.$el.children( 'ul' );
@@ -54,7 +54,7 @@ console.log(js_object.ajax_url);
 						
 				default:
                                     if (this.currentStart === 0){
-			console.log("qualcosa non va");
+			//console.log("qualcosa non va");
 			}
 					this.currentStart = 0;
                                         
@@ -122,7 +122,7 @@ console.log(js_object.ajax_url);
 			
             if (cookie) {
                 cookie = decodeURIComponent(cookie);
-                console.log(cookie);
+                //console.log(cookie);
                 if (strpos(cookie, "=", 0)) {
                     this.cookieContent = parseQuery(cookie);
 

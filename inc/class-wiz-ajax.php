@@ -68,14 +68,11 @@ class wiz_ajax {
 		$post_id =	wp_insert_post( $my_post );	 
 		$data['wizard_post_id'] = $post_id ;
 		
-		
 		foreach ( $data as $key => $field ) {
 			update_post_meta($post_id, $key, $field);
 			update_user_meta( $user_id, $key, $field );
 		}
-		
-		
-		
+      
 		$output = ob_get_contents();
 		ob_end_clean();
 		echo $output;
