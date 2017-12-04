@@ -598,11 +598,11 @@ jQuery(function ($) {
 						console.log('loadProduct2Buy accede a getCookieData');
 						var cookie = wiz_ajax.getCookieData();
 	
-						if( cookie.wizard_cat_id == setup.spazzolini_id  /* 7 in italiano */ ){
+						if( cookie.wizard_cat_id === setup.spazzolini_id  /* 7 in italiano */ ){
 						
 							wiz_ajax.setImage_spazzolino();
 						
-						}else if (cookie.wizard_cat_id == setup.kit_id /* 11 in italiano */  ){
+						}else if (cookie.wizard_cat_id === setup.kit_id /* 11 in italiano */  ){
 						
 							wiz_ajax.setImage_kit();
 						
@@ -653,9 +653,9 @@ jQuery(function ($) {
                     'action': 'wiz_set_style',
                     'selection': wiz_ajax.prodID
                 },
-                success: function (data) {
+                /*success: function (data) {
                 
-                },
+                },*/
             });
 			
 		},
@@ -783,7 +783,7 @@ jQuery(function ($) {
 			
 			// Carica un testo specifico se la categoria è kit
 			
-			if( wiz_ajax.cookieContent.wizard_cat_id == setup.kit_id /* 11 IN ITALIANO */ ){
+			if( wiz_ajax.cookieContent.wizard_cat_id === setup.kit_id /* 11 IN ITALIANO */ ){
 				$("#pre_product_focus").html("<p>" + setup.text_studio + "</p>");	
 			}
 		},
@@ -796,10 +796,10 @@ jQuery(function ($) {
 					'action': 'wiz_admin_create_post', // class-wiz-ajax.php 54
 					
 				},
-				success: function(data){
+				/*success: function(data){
 					//alert(data);
 					console.log('[wiz-ajax.js][setPost] ho attivato la funzione wiz_admin_create_post');
-				}			
+				}*/			
 					
 			});
 			
