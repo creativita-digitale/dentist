@@ -704,6 +704,7 @@ left: 0
 	line-height: 17px;
 	 z-index: 99;
 	 background-size: 221px auto;
+	color:#337ab7 !important;
 }
 
 #product-editor .spazzolini .frame{
@@ -720,6 +721,27 @@ left: 0
     top: 83px;
     width: 221px;
    
+}
+
+#stage.p-6482 .frame, #stage.p-6491 .frame
+
+ {
+    left: 323px;
+    top: 144px;
+}
+
+frame, #stage.p-185 .frame, #stage.p-3314 .frame
+
+ {
+    left: 294px;
+    top: 138px;
+}
+
+frame, #stage.p-183 .frame, #stage.p-3327 .frame
+
+ {
+    left: 294px;
+    top: 138px;
 }
 
 .kitstyle-1{
@@ -769,6 +791,7 @@ left: 0
     position: absolute;
     text-align: center !important;
     width: 221px;
+	color:#337ab7 !important;
 }
 
 .wizard_address_text {
@@ -779,6 +802,7 @@ left: 0
     text-align: left !important;
     top: 69px;
     width: 134px;
+	color:#337ab7 !important;
 	
 }
 
@@ -790,6 +814,7 @@ left: 0
     text-align: left !important;
     top: 80px;
     width: 134px;
+	color:#3d4645 !important;
 	
 }
 
@@ -799,7 +824,7 @@ font-size: 13px !important;
     left: 80px;
     position: absolute;
     top: 50px;
-	
+	color:#337ab7 !important;
 	 text-align: left !important;
 }
 
@@ -811,6 +836,7 @@ font-size: 13px !important;
     position: absolute;
     text-align: left !important;
     top: 15px !important;
+	color:#337ab7 !important;
 	
 }
 
@@ -866,62 +892,75 @@ font-size: 13px !important;
     top: 29px !important;
 	}
 
+.kit .kitstyle-0 .wizard_address_text, .kit .kitstyle-0 .wizard_tel_text, 
+.kit .kitstyle-0 .wizard_address_2_text{
+	color:#3d4645 !important;
+}
+
 .kit .kitstyle-10 .wizard_fullname_text, .kitstyle-10 .wizard_email_text, .kitstyle-10 .wizard_city_postcode_text {
-	color:#322d74;
+	color:#322d74 !important;
 }
 
 .kitstyle-10 .wizard_address_text, .kitstyle-10 .wizard_address_2_text , .kitstyle-10 .wizard_tel_text{
-	color:#e83378;
+	color:#e83378 !important;
 }
 
 
 .kit .kitstyle-3 .wizard_fullname_text, .kitstyle-3 .wizard_email_text, .kit .kitstyle-0 .wizard_fullname_text, .kitstyle-0 .wizard_email_text{
-	color:#007481;
+	color:#007481 !important;
 }
 .kitstyle-3 .wizard_city_postcode_text, .kitstyle-0 .wizard_city_postcode_text {
-color:#fff;
+color:#fff !important;
 }
+
+.kitstyle-3 .wizard_tel_text{
+	color: #3d4645 !important;
+}
+
 
 .kit .kitstyle-3 .wizard_address_text, .kitstyle-3 .wizard_address_2_text .kitstyle-3 .wizard_tel_text, .kit .kitstyle-0 .wizard_address_text, .kitstyle-0 .wizard_address_2_text .kitstyle-0 .wizard_tel_text{
-	color:#3d4645;
+	color:#3d4645 !important;
 }
 
 
-.kit .kitstyle-4 .wizard_fullname_text, .kitstyle-4 .wizard_email_text, .kitstyle-4  .wizard_tel_text, .kitstyle-4 .wizard_address_text{
-color:#007bb4
+.kit .kitstyle-4 .wizard_fullname_text, .kitstyle-4 .wizard_email_text, .kitstyle-4  .wizard_tel_text, .kitstyle-4 .wizard_address_text, .kitstyle-4 .wizard_address_2_text{
+color:#007bb4!important;
 }
 .kitstyle-4 .wizard_city_postcode_text {
-color:#fff;
+color:#fff!important;
 }
 
 .kit .kitstyle-5 .wizard_fullname_text, .kitstyle-5 .wizard_email_text{
-color:#62b22f
+color:#62b22f !important;
 } 
 .kitstyle-5  .wizard_tel_text, .kitstyle-5 .wizard_address_text, .kitstyle-5 .wizard_address_2_text{
-color:#4d5957
+color:#4d5957 !important;
 }
 .kitstyle-5 .wizard_city_postcode_text {
-color:#fff;
+color:#fff !important;
 }
 
 .kit .kitstyle-6 .wizard_fullname_text, .kitstyle-6 .wizard_email_text{
-color:#467cb8
+color:#467cb8 !important;
 } 
 .kitstyle-6  .wizard_tel_text, .kitstyle-5 .wizard_address_text, .kitstyle-5 .wizard_address_2_text{
-color:#4d5957
+color:#4d5957 !important;
 }
 .kitstyle-6 .wizard_city_postcode_text {
-color:#fff;
+color:#fff !important;
+}
+.kit .kitstyle-6 .wizard_address_text{
+color:#475A60 !important;
 }
 
 .kit .kitstyle-7 .wizard_fullname_text, .kitstyle-7 .wizard_email_text{
-color:#272356
+color:#272356 !important;
 } 
 .kitstyle-7  .wizard_tel_text, .kitstyle-7 .wizard_address_text, .kitstyle-7 .wizard_address_2_text{
-color:#1e60aa
+color:#1e60aa !important;
 }
 .kitstyle-7 .wizard_city_postcode_text {
-color:#fff;
+color:#fff !important;
 }
 
 
@@ -1130,11 +1169,13 @@ padding: 60px 0;
 }
 
 #stage {
-	color:#fff
+	color:#15a96;
 }
 #product-section{border-top:3px solid rgba(0, 0, 0, 0.024); margin-top:10px}
-#stage.p-185{
-	color:#000 !important}
+#stage.p-185, #stage.p-6482, #stage.p-6491{
+	/*color:#000 !important*/
+	color:#15a96 !important;
+}
 .hero-img{
 	
     margin: 0 ;
