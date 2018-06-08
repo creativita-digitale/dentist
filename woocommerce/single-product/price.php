@@ -14,14 +14,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 global $product;
 
 ?>
-<?php  $framework = TitanFramework::getInstance( 'Silvercaredentist' );?>
+<?php  
+	$framework = TitanFramework::getInstance( 'Silvercaredentist' );
+	$currency_code = get_woocommerce_currency_symbol();
+?>
 
 <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 
 
 	<div class="price">
-		<del>€ <?php echo $framework->getOption( 'price_display' , get_the_ID() ); ?></del>
-		<strong>€ <?php echo $framework->getOption( 'price_discount' , get_the_ID() ); ?></strong>
+		<del><?php echo $currency_code; ?> <?php echo $framework->getOption( 'price_display' , get_the_ID() ); ?></del>
+		<strong><?php echo $currency_code; ?> <?php echo $framework->getOption( 'price_discount' , get_the_ID() ); ?></strong>
 	</div>
 								
 	
